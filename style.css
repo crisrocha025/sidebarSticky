@@ -1,0 +1,32 @@
+*{
+    border: 0;
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 15px;
+    color: rgb(51, 48, 48)241, 235, 235);
+}
+h1,h2{
+    text-transform:uppercase;
+    text-align:center;
+    color: rgb(138, 19, 19);
+    padding:10px;
+}
+img{
+    display: block;
+    box-shadow: 2px 2px 10px #ccc;
+    width:90%;
+    margin:10px auto;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap:10px;
+}
+.content, .sidebar{
+    border-radius:10px;
+    background: rgb(243, 147, 147);
+    padding: 10px; 
+}
